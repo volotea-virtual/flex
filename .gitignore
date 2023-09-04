@@ -11,8 +11,6 @@
 # production
 /build
 
-# runway db
-/public/database
 
 # misc
 .DS_Store
