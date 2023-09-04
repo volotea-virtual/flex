@@ -1,7 +1,7 @@
 {
-    "name": "flextspwa",
+    "name": "flex",
     "version": "0.1.0",
-    "homepage": "https://volotea-virtual.github.io/flex",
+    "homepage": ".",
     "private": true,
     "dependencies": {
         "@emotion/styled": "^11.10.6",
