@@ -6,7 +6,7 @@ This is a takeoff performance calculator for the Airbus A320 NEO. While Airbus h
 
 ## Installation (iPad)
 
-* open the deployed [page](https://jbud.github.io/Flex-Calculator-TS/) in safari
+* open the deployed [page](https://volotea-virtual.github.io/flex/) in safari
 * Tap the share icon and select add to home screen.
 
 ## Known issues
