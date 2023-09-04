@@ -1,4 +1,4 @@
-import { Airframe } from './airframes.h';
+import { Airframe } from "./airframes.h";
 
 export const a21npw: Airframe = {
     name: 'A21NPW',
@@ -37,7 +37,7 @@ export const a21npw: Airframe = {
         StopDistanceDiffs: [80, 95, 95, 95, 175],
     },
     VSpeeds: {
-        // VSpeeds[Flaps][Weight] ; FBW A32NX
+        // VSpeeds[Flaps][Weight] ; HZSIM A21N
         '1': {
             // Conf 1+F
             '35': 126,
@@ -49,7 +49,7 @@ export const a21npw: Airframe = {
             '65': 137,
             '70': 142,
             '75': 147,
-            '80': 152,
+            '80': 151,
         },
         '2': {
             // Conf 2
@@ -57,7 +57,7 @@ export const a21npw: Airframe = {
             '40': 126,
             '45': 126,
             '50': 126,
-            '55': 127,
+            '55': 126,
             '60': 127,
             '65': 132,
             '70': 137,
@@ -71,10 +71,10 @@ export const a21npw: Airframe = {
             '45': 125,
             '50': 125,
             '55': 125,
-            '60': 128,
-            '65': 129,
+            '60': 125,
+            '65': 128,
             '70': 132,
-            '75': 141,
+            '75': 137,
             '80': 141,
         },
     },
