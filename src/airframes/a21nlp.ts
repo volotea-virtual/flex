@@ -37,7 +37,7 @@ export const a21nlp: Airframe = {
         StopDistanceDiffs: [80, 95, 95, 95, 175],
     },
     VSpeeds: {
-        // VSpeeds[Flaps][Weight] ; HZSIM A21N
+        // VSpeeds[Flaps][Weight] ; A21N
         '1': {
             // Conf 1+F
             '35': 126,
