@@ -18,12 +18,3 @@ Currently there is no full method for an invalid takeoff. If the calculator outp
 An internet connection is required* by default for the METAR API. a beta version is currently deployed to accept manual input by tapping the wifi icon on the menu bar. Open an issue if you experience any problems. 
 
 \* an internet connection is **not** required for the runway database, it is built into the app.
-
-## Available Scripts
-
-In the project directory, you can run:
-#### `npm install`
-#### `git submodule update --init`
-#### `mkdir -p -v ./public/database/runways`
-#### `cp -R ./runways/icao/ ./public/database/runways/`
-#### `npm start`
