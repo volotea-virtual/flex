@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import { Box } from '@mui/material';
+import { Box } from "@mui/material";
 
 export interface RunwayV2Props {
     runwayLength: number;
@@ -22,7 +22,7 @@ const RunwayV2 = ({
     ASD,
     runwayMarker,
 }: RunwayV2Props) => {
-    const [runwayLengthText, setRunwayLengthText] = useState('?????ft');
+    const [runwayLengthText, setRunwayLengthText] = useState('?????m');
     const [opposingRunwayMarker, setOpposingRunwayMarker] = useState('???');
     const [calculated, setCalculated] = useState(false);
     const [asdLoc, setAsdLoc] = useState(1);
@@ -31,7 +31,7 @@ const RunwayV2 = ({
     useEffect(() => {
         if (ASD > 0) {
             const ASDLoc = Math.round(
-                (1 - (ASD * 3.28084) / runwayLength) * 700
+                (1 - (ASD / 3.28084) / runwayLength) * 700
             );
             setAsdLoc(ASDLoc < 60 ? ASDLoc + 60 : ASDLoc);
             setCalculated(true);
