@@ -17,9 +17,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import { Box } from '@mui/material';
+import { Box } from "@mui/material";
 
 export type DistanceLabel = {
     distance: number;
@@ -163,8 +163,8 @@ const RunwayVisualizationWidget = ({
                             >
                                 {label.label}{' '}
                                 {Math.round(
-                                    distanceUnit === 'ft'
-                                        ? 3.281 * label.distance
+                                    distanceUnit === 'm'
+                                        ? label.distance
                                         : label.distance
                                 )}
                                 {distanceUnit}
