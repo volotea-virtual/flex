@@ -46,7 +46,8 @@
         }
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "serve build -s -n -L -p $PORT",
+        "start-dev": "react-scripts start",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "build": "react-scripts build",
