@@ -412,7 +412,7 @@ function App() {
                             runwayMarker={
                                 runwaySetting.true ? runwaySetting.true : '???'
                             }
-                            runwayLengthUnit={'ft'}
+                            runwayLengthUnit={'m'}
                             ASD={ASD}
                         />
                     </Grid>
