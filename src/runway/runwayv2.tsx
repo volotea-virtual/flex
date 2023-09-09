@@ -11,7 +11,7 @@ export interface RunwayV2Props {
 
 export const defaultValues: RunwayV2Props = {
     runwayLength: 0,
-    runwayLengthUnit: 'ft',
+    runwayLengthUnit: 'm',
     ASD: 0,
     runwayMarker: '???',
 };
