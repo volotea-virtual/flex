@@ -31,7 +31,7 @@ const RunwayV2 = ({
     useEffect(() => {
         if (ASD > 0) {
             const ASDLoc = Math.round(
-                (1 - (ASD / 3.28084) / runwayLength) * 700
+                (1 - (ASD * 3.28084) / runwayLength) * 700
             );
             setAsdLoc(ASDLoc < 60 ? ASDLoc + 60 : ASDLoc);
             setCalculated(true);
