@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2589ff50.css",
+    "main.js": "./static/js/main.642c35a9.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "static/media/HoneywellMCDUSmall.ttf": "./static/media/HoneywellMCDUSmall.2a6861dbcabcddb5aa11.ttf",
+    "static/media/HoneywellMCDU.ttf": "./static/media/HoneywellMCDU.5f9ac2fd5ad48d947f1c.ttf",
+    "main.2589ff50.css.map": "./static/css/main.2589ff50.css.map",
+    "main.642c35a9.js.map": "./static/js/main.642c35a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2589ff50.css",
+    "static/js/main.642c35a9.js"
+  ]
+}
