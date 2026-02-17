@@ -1,0 +1,20 @@
+{
+    "id": "36096",
+    "ident": "SILS",
+    "type": "small_airport",
+    "name": "Água Branca Airport",
+    "latitude_deg": "-6.390832901001",
+    "longitude_deg": "-56.284999847412",
+    "elevation_ft": "667",
+    "continent": "SA",
+    "iso_country": "BR",
+    "iso_region": "BR-PA",
+    "municipality": "Itaituba",
+    "scheduled_service": "no",
+    "gps_code": "",
+    "iata_code": "",
+    "local_code": "",
+    "home_link": "",
+    "wikipedia_link": "",
+    "keywords": "SILS"
+}
